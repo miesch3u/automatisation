@@ -10,5 +10,5 @@ jobs:
       - uses: php-actions/phpunit@v3
         with :
           version: '9.6.11'
-          php_version: '8.0'
+          php_version: '8.1.2'
 

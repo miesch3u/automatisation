@@ -11,4 +11,5 @@ jobs:
         with :
           version: '9.6.11'
           php_version: '8.1.2'
+          php_extensions : 'gd'
 

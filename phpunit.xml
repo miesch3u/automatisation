@@ -19,4 +19,11 @@
   <logging>
     <testdoxHtml outputFile="log/testdox.html"/>
   </logging>
+
+  <coverage processUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">./src</directory>
+    </include>
+  </coverage>
+
 </phpunit>

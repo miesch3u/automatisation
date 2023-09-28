@@ -16,5 +16,5 @@ jobs:
       - uses: irongut/CodeCoverageSummary@v1.3.0
         with:
           output: 'xml'
-          filename: coverage.xml
+          filename: workspace/coverage.xml
 

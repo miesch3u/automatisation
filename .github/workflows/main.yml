@@ -32,4 +32,7 @@ jobs:
         with:
             php_version: 8.1.2
             path: lib/
+            standard: PSR2
+            error_severity: 8
+            warning_severity: 0
 

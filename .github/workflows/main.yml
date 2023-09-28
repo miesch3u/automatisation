@@ -30,8 +30,6 @@ jobs:
 
       - uses: php-actions/phpcs@v1
         with:
-            php_version: 8.1
-            php_extensions: phpcs
+            php_version: 8.1.2
             path: lib/
-            standard: phpcs.xml
 
